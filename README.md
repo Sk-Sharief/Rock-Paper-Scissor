@@ -1,42 +1,89 @@
-# Rock · Paper · Scissors
+🎮 Rock · Paper · Scissors
 
-A small, accessible, responsive Rock-Paper-Scissors web game built with plain HTML/CSS/JS.
+A cute, responsive, and accessible web version of the classic Rock Paper Scissors game — designed with smooth animations, real-time score tracking, and a beautiful dark interface.
 
-Features
-- Clean responsive UI with animations
-- Keyboard controls: R = Rock, P = Paper, S = Scissors
-- Persistent score using localStorage
-- Sound toggle (minimal beeps)
-- Accessible buttons and aria-live results
+🧠 Overview
 
-How to run
-1. Open `index.html` in a browser (double-click or right-click -> Open with).
-2. Or run a simple static server (Python 3):
+This project is an interactive Rock Paper Scissors web game where players compete against the computer.
+It features a minimalist design with modern UI, keyboard shortcuts, and animated feedback for an enjoyable experience.
 
-```powershell
-python -m http.server 8000
-# then open http://localhost:8000 in your browser
-```
+You can play endlessly, toggle sound, and reset scores anytime — all within a sleek interface built for responsiveness and simplicity.
 
-Notes & next steps
-- Add better sounds, animations, and a reset confirmation.
-- Add unit tests for the game logic.
-- Package as Electron app or PWA if you want offline install.
+🌟 Features
 
-New features added
-- Match modes: Select Endless, Best of 3, or Best of 5 using the Mode dropdown. Best-of modes will end the match when a side reaches the required wins.
-- Animations: Toggle confetti animations on wins using the Animations checkbox.
-- Improved sounds: lightweight WebAudio synth used for short tones. Toggle Sound on/off.
-- Tests: A small test suite for game logic is included. To run tests:
+🎨 Clean, responsive, and dark-themed UI
 
-```powershell
-npm test
-```
+🧩 Real-time score tracking for player and computer
 
-This runs a minimal Node test runner that executes `test/game.test.js`.
+⚙️ Endless game mode
 
-Additional new features
-- Canvas confetti: uses `canvas-confetti` (via CDN) for smoother confetti animations. If offline, the app falls back to a lightweight DOM confetti.
-- Match summary modal: when a best-of match ends you'll see a modal summary and the app auto-resets after a short delay (or you can reset using the modal button).
-- Volume control: slider for finer sound control.
-Note: This build is configured for single-player only. Multiplayer/hotseat UI and logic have been removed.
+🔊 Adjustable sound settings with volume control
+
+⌨️ Keyboard shortcuts (R, P, S) for quick play
+
+💫 Smooth animations and transitions
+
+❤️ Built with love and attention to user experience
+
+🛠️ Technologies Used
+
+Frontend: HTML, CSS, JavaScript (React.js or Vanilla JS — replace with your stack)
+
+Styling: CSS3 / Tailwind / Styled Components (replace accordingly)
+
+Other Tools: (Optional – mention any sound/animation libraries used)
+
+🚀 How to Run
+
+Clone this repository:
+
+git clone https://github.com/Sk-Sharief/Rock-Paper-Scissor.git
+
+
+Navigate to the project folder:
+
+cd rock-paper-scissors
+
+
+Install dependencies (if applicable):
+
+npm install
+
+
+Start the project:
+
+npm start
+
+
+Open your browser and visit:
+
+http://localhost:3000
+
+🖼️ Preview
+
+👉 Gameplay Screenshot:
+
+
+<img width="1919" height="1079" alt="Screenshot 2025-10-23 141604" src="https://github.com/user-attachments/assets/9e9943a8-4e23-4cd7-b606-0f5e97fc3bcd" />
+
+
+<img width="1911" height="1063" alt="Screenshot 2025-10-23 115151" src="https://github.com/user-attachments/assets/59ff484d-f7af-4e6e-b725-ae3690a2e36c" />
+
+
+<img width="1918" height="1078" alt="Screenshot 2025-10-23 141711" src="https://github.com/user-attachments/assets/820307e7-d8fd-48df-b18c-42da4fa52b7a" />
+
+
+<img width="1919" height="1079" alt="Screenshot 2025-10-23 141621" src="https://github.com/user-attachments/assets/52993a17-3e3d-4938-a6cd-32689fe67c5c" />
+
+
+🧑‍💻 Author
+
+👤 Sharief Sk
+📧 shalinisharief7@gmail.com
+🌐 https://github.com/Sk-Sharief
+
+💬 Acknowledgements
+
+Classic Rock Paper Scissors inspiration 🎲
+
+Designed to enhance front-end skills through creative UI and user interaction
